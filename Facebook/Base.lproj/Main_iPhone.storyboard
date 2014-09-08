@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="DYy-WH-eJL">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <scenes>
+        <!--Notifications-->
+        <scene sceneID="hq7-fe-DRt">
+            <objects>
+                <viewController id="Ev9-YO-kUY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iGg-BE-idl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notifications" id="4Ae-FS-C2Y">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notifications" image="notifications_tab" id="Dco-Wz-Er6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NtY-eh-apX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="425" y="2042"/>
+        </scene>
+        <!--Messages-->
+        <scene sceneID="P5Z-h7-TpN">
+            <objects>
+                <viewController id="Akg-Kx-K4r" customClass="MessagesViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qh4-Zc-WNr" customClass="Messages">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messages" id="nXu-Qn-6fj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Messages" image="messages_tab" id="2Y7-h5-sOH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mdC-Fy-tZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="2042"/>
+        </scene>
+        <!--Requests-->
+        <scene sceneID="1XE-Ye-4UL">
+            <objects>
+                <viewController id="zh9-01-J2p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Hv-kO-lT8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="qGy-3N-Sx1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="522"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Requests" image="requests_tab" id="PzJ-Bt-43y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EpB-e1-uBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1125" y="2042"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="hjQ-Os-5AA">
+            <objects>
+                <viewController id="SPi-ml-S2l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aRy-Ht-Tcl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" id="hzg-2R-ddr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="More" image="more_tab" id="CHX-uj-xLX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPT-tK-ivW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473" y="2042"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="CnQ-9q-qOL">
+            <objects>
+                <viewController id="EEu-yG-EEe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T7s-3l-qIk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_feed" id="CmC-ig-TY2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71022318644784588" green="1" blue="0.30690931446545933" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feed" image="feed_tab" id="72y-ur-pNT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i5c-XN-ufy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="70" y="2042"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zzH-xf-cLf">
+            <objects>
+                <tabBarController id="DYy-WH-eJL" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="G3G-kv-tkQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="EEu-yG-EEe" kind="relationship" relationship="viewControllers" id="Bfe-8o-DIe"/>
+                        <segue destination="zh9-01-J2p" kind="relationship" relationship="viewControllers" id="6oI-IO-Tib"/>
+                        <segue destination="Akg-Kx-K4r" kind="relationship" relationship="viewControllers" id="Lcc-mn-WXB"/>
+                        <segue destination="Ev9-YO-kUY" kind="relationship" relationship="viewControllers" id="0fk-gB-3dK"/>
+                        <segue destination="SPi-ml-S2l" kind="relationship" relationship="viewControllers" id="YWQ-0S-hQ4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BEP-sj-uiA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="1207"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="feed_tab" width="27" height="27"/>
+        <image name="home_feed" width="320" height="1025"/>
+        <image name="messages" width="320" height="460"/>
+        <image name="messages_tab" width="27" height="27"/>
+        <image name="more_tab" width="27" height="27"/>
+        <image name="notifications" width="320" height="818"/>
+        <image name="notifications_tab" width="27" height="27"/>
+        <image name="people" width="320" height="1006"/>
+        <image name="requests_tab" width="27" height="27"/>
+        <image name="settings" width="320" height="1800"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
+    </simulatedMetricsContainer>
+</document>
