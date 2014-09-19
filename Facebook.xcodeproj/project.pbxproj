@@ -23,6 +23,8 @@
 		88CEBCCA19B92F620019ADF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CEBCA919B92F620019ADF4 /* UIKit.framework */; };
 		88CEBCD219B92F620019ADF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88CEBCD019B92F620019ADF4 /* InfoPlist.strings */; };
 		88CEBCD419B92F620019ADF4 /* FacebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CEBCD319B92F620019ADF4 /* FacebookTests.m */; };
+		88EB5BF719BD74E4006D54CF /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5BF619BD74E4006D54CF /* NotificationsViewController.swift */; };
+		88EB5BF919BD754C006D54CF /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5BF819BD754C006D54CF /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		88CEBCCF19B92F620019ADF4 /* FacebookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacebookTests-Info.plist"; sourceTree = "<group>"; };
 		88CEBCD119B92F620019ADF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88CEBCD319B92F620019ADF4 /* FacebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookTests.m; sourceTree = "<group>"; };
+		88EB5BF619BD74E4006D54CF /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		88EB5BF819BD754C006D54CF /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				884F6E2719BA5B2C00FC8E63 /* MessagesViewController.swift */,
+				88EB5BF619BD74E4006D54CF /* NotificationsViewController.swift */,
+				88EB5BF819BD754C006D54CF /* MoreViewController.swift */,
 				884F6E2619BA5B2B00FC8E63 /* Facebook-Bridging-Header.h */,
 			);
 			name = "View Controllers";
@@ -266,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EB5BF719BD74E4006D54CF /* NotificationsViewController.swift in Sources */,
 				88CEBCBF19B92F620019ADF4 /* ViewController.m in Sources */,
 				88CEBCB619B92F620019ADF4 /* AppDelegate.m in Sources */,
+				88EB5BF919BD754C006D54CF /* MoreViewController.swift in Sources */,
 				884F6E2819BA5B2C00FC8E63 /* MessagesViewController.swift in Sources */,
 				88CEBCB219B92F620019ADF4 /* main.m in Sources */,
 			);
